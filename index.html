@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>My TV Channel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      background: #000;
+      font-family: Arial, sans-serif;
+      color: #fff;
+    }
+    header {
+      padding: 10px;
+      background: #111;
+      text-align: center;
+    }
+    video {
+      width: 100%;
+      height: calc(100vh - 60px);
+      background: #000;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h2>📺 My 24/7 TV Channel</h2>
+</header>
+
+<video controls autoplay muted>
+  <source src="http://192.168.10.12:8080/memfs/966c116e-fb0c-4065-b25c-6c4a58297c12.m3u8" type="application/x-mpegURL">
+</video>
+
+</body>
+</html>
